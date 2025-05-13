@@ -1,7 +1,7 @@
 import React from 'react';
 import '../ToggleSwitch/ToggleSwitch.css';
 import FaSun from '../../assets/Sun.svg';
-import FaMoon from '../../assets/Moon.svg';
+import FaMoon from '../../assets/night.png';
 
 
 const ToggleSwitch = () => {

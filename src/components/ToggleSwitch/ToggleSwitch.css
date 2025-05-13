@@ -3,7 +3,7 @@
     justify-content: center;
     width: 69px;
     height: 32px;
-    background: #f4f3f5;
+    background: #cac9ca;
     border-radius: 34px;
     display: flex;
     flex-direction: column;
@@ -73,7 +73,7 @@
     align-items: center;
     border-radius: 30px;
     background: #f0f1f0;
-    border: 3px solid #3a2929;
+    border: 2px solid #3a2929;
     justify-content: center;
 }
 

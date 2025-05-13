@@ -8,7 +8,8 @@
 
 .navbar > h2 {
     font-size: 30px;
-    color: #faf604;
+    color: var(--heading_color);
+    font-weight: 500;
     padding-right: 500px;
 }
 
@@ -34,8 +35,8 @@
 }
 
 .logo {
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
     border-radius: 50%;
     margin-right: 10px;
 }
