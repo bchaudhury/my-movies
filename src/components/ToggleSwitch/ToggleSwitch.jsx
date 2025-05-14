@@ -19,15 +19,11 @@ const ToggleSwitch = () => {
             body.style.backgroundColor = '#fff';
             body.style.color = '#000';
         }
-        else if (!isOn)
+        else 
         {
             body.style.backgroundColor = '#333';
             body.style.color = '#fff';
         }
-        else {
-            body.title = '';
-        }
-
         
     }
 

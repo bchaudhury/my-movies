@@ -20,6 +20,8 @@
     border-radius: 34px;
     position: absolute;
     transition: background-color 0.3s ease-in-out;
+    width: 69px;
+    height: 32px;
 }
 
 .toggle-switch-label {
