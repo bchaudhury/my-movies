@@ -16,7 +16,7 @@ const Navbar = () => {
                     className='logo'
                 />
             </div>
-            <h2>MovieDekho</h2>
+            <h2>Movie-Dekho</h2>
 
             <div className='navbar_links'>
                 <ToggleSwitch />

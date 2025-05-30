@@ -15,14 +15,19 @@ const ToggleSwitch = () => {
     const handleToggle = () => {
         setIsOn(!isOn);
         const body = document.querySelector('body');
+
+        // Change the background color and text color based on the toggle state
+
         if (isOn) {
             body.style.backgroundColor = '#fff';
             body.style.color = '#000';
+            body.style.transition = 'background-color 0.3s ease, color 0.3s ease';
         }
         else 
         {
             body.style.backgroundColor = '#333';
             body.style.color = '#fff';
+            body.style.transition = 'background-color 0.3s ease, color 0.3s ease';
         }
         
     }
